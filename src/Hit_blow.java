@@ -1,6 +1,7 @@
 
 import java.util.Collections;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class Hit_blow{
@@ -29,12 +30,13 @@ public class Hit_blow{
         }
         }
         }
+        System.out.println(Arrays.toString(answer));
         return answer;
         }
 
 
             public static void main(String[] args){
-                System.out.println();
+                makeRightAnswer();
             }
 
         }
