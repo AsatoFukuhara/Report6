@@ -1,24 +1,18 @@
+import java.io.*;
 
-import java.util.Collections;
-import java.util.ArrayList;
+import java.io.BufferedReader;
+
 import java.util.Arrays;
+import java.util.Scanner;
 
 
 public class Hit_blow{
     final static int answer_size = 3;
-    public int a, b, c;
+    public static int a;
+    public static int b;
+    public static int c;
 
 
-    public int getA(){
-        return this.a;
-    }
-    public int getB(){
-        return this.b;
-    }
-
-    public int getC(){
-        return this.c;
-    }
     
     public static int[] makeRightAnswer() {
         int[] answer = new int[answer_size];
@@ -34,9 +28,34 @@ public class Hit_blow{
         return answer;
         }
 
+    public static void readUserAnswer() {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("1つ目の数字を入力してください: ");
+            a = scanner.nextInt();
+            System.out.print("2つ目の数字を入力してください: ");
+            b = scanner.nextInt();
+            System.out.print("3つ目の数字を入力してください: ");
+            c = scanner.nextInt();
+
+
+            //scanner.close();
+
+
+            }
+
+  
+
+
 
             public static void main(String[] args){
                 makeRightAnswer();
+                System.out.println("数字当てゲーム開始");
+                boolean bool1 = true;
+                while(bool1){
+                    readUserAnswer();
+                }
+
+            
             }
 
         }

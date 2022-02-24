@@ -3,7 +3,7 @@ import random
 l1 = [i for i in range(10)]
 random.shuffle(l1)
 l2 = [l1[0], l1[1], l1[2], l1[3]]
-print(l2)#3つ取り出してる
+#print(l2)#3つ取り出してる
 
 
 
