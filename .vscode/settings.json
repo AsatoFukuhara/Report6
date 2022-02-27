@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "src",
-        "app/src/main/java/jp/ac/uryukyu/ie/e205730"
+        "app/src/main/java/jp/ac/uryukyu/ie/e205730",
+        "app/src/main/java/jp/ac/uryukyu"
     ]
 }
