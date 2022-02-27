@@ -43,6 +43,22 @@ public class Hit_blow{
 
             }
 
+
+
+
+
+
+
+
+
+        public boolean checkAnswer(){
+            boolean bool1 = true;
+            boolean bool2 = false;
+            if (a == answer[0]){
+                 //何かしら
+            }
+        }
+
   
 
 
